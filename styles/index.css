@@ -3,13 +3,18 @@ body {
     text-align: center;
 }
 
-h1 {
-    font-size: 72pt;
+.banner h1 {
     text-align: center;
-    color: blue;
+    padding: 10px 30px 10px 30px;
+    color: rgb(196, 15, 15);  
+    margin: 0px;
 }
 
-.title {
-    font-size: 46pt;
-    color: red;
+.banner {
+    display:inline-block;
+    font-size: 32pt;
+    border: 4px solid #ab3030; 
+    box-sizing: border-box;
+    padding: 0px;
+    margin-top: 20px;
 }
