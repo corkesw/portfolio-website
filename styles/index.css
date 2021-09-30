@@ -18,3 +18,15 @@ body {
     padding: 0px;
     margin-top: 20px;
 }
+
+#about_me {
+    width: 200px;
+}
+
+p.biography_text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    text-align: justify;
+}
+
