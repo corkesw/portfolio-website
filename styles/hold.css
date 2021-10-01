@@ -1,12 +1,13 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  color: #25731b
 }
 
 .banner h1 {
   text-align: center;
   padding: 10px 30px 10px 30px;
-  color: rgb(196, 15, 15);
+  color:#1b735e;
   margin: 0px;
 }
 
@@ -88,4 +89,34 @@ p.project-info__main {
     flex: 4 1 auto;
     color: #265301;
     font-weight: 700;
+}
+
+.aboutgrid {
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: "nav nav"
+                      "banner banner" 
+                      "image biography"
+                      "links links";
+}
+
+.aboutgrid > .main-nav {
+  background-color: red;
+  grid-area: nav;
+}
+
+.aboutgrid > .banner__title {
+  grid-area: banner;
+}
+
+.aboutgrid > .image {
+  grid-area: image;
+}
+
+.aboutgrid > .biography {
+  grid-area: biography;
+}
+
+.aboutgrid > links {
+  grid-area: links;
 }
